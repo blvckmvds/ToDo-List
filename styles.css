@@ -1,0 +1,193 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Assignment */
+ul li {
+  list-style-type: none;
+  line-height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sub-item-link:link {
+  color: #fff;
+}
+
+.sub-item-link:hover {
+  color: #ddd;
+}
+
+a:active {
+  color: red;
+}
+
+/* Focus state */
+.sub-item-link:focus {
+  outline: 0.5px solid #fff;
+}
+
+.sub-item-link:visited {
+  color: black;
+}
+
+/* Style */
+body {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  background-color: #17153B;
+}
+
+.main-title {
+  margin: 20px 0 50px 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  max-width: 500px;
+  min-height: 650px;
+  background-color: #17153B;
+  margin: 50px auto;
+  padding: 20px 45px;
+  border-radius: 10px;
+}
+
+.task-submit-button {
+  background-color: #04AA6D;
+  border: none;
+  color: #fff;
+  padding: 10px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.task-submit-button:hover {
+  background-color: transparent;
+  border: 1px solid #04AA6D;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.item-delete-button {
+  background-color: #ff0000;
+  float: right;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 70px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.item-delete-button:hover {
+  background-color: #17153B;
+  border: 1px solid #ff0000;
+  color: #ff0000;
+}
+
+.search-box-container {
+  margin-bottom: 30px;
+}
+
+#search-box {
+  padding: 10px;
+  width: 250px;
+  background-color: transparent;
+  border: solid 1px #696969;
+  border-radius: 5px;
+  color: #ddd;
+}
+
+#search-box:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #ddd;
+  font-family: "Montserrat", sans-serif;
+}
+
+.todo-list .line {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.sub-item {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+ footer {
+        text-align: center;
+        padding: 10px; 
+        font-size: 12px;     
+    }
